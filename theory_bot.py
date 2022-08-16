@@ -3,7 +3,7 @@
 
 from telebot import TeleBot, types
 
-bot = TeleBot(token='5414002769:AAFBbdkZaFWbrql2ssLk-WzS8-Nf3RfZf2U', parse_mode='html') # создание бота
+bot = TeleBot(token='Вставте_свой_токен', parse_mode='html') # создание бота
 
 
 @bot.message_handler(commands=['start'])
